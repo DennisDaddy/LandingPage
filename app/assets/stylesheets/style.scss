@@ -1,0 +1,24 @@
+body{
+	font:{
+	size: 100%;
+	family: $primary-font;
+	}
+	color: $color-3;
+	background-color: $background;
+
+}
+
+a{
+	text-decoration: none;
+
+}
+
+
+.cd-content{
+	@include outer-container(100%);
+}
+
+.cd-container{
+	@include span-columns(10);
+	@include shift(1);
+}
